@@ -1,0 +1,9 @@
+{
+  "name": "앨리스타운",
+  "short_name": "ALICETOWN",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#a7c0f2",
+  "icons": []
+}

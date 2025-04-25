@@ -1,1 +1,22 @@
-<!DOCTYPE html><html><head><title>앨리스타운</title></head><body><h1>시아의 앨리스타운에 오신 걸 환영합니다!</h1></body></html>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>앨리스타운</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="manifest.json" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎀 ALICETOWN</h1>
+    <p>디렉터 시아의 루틴 판타지</p>
+    <button onclick="startRoutine('출근')">📘 출근</button>
+    <button onclick="startRoutine('공부')">💼 공부</button>
+    <button onclick="startRoutine('독서')">📖 독서</button>
+    <button onclick="startRoutine('운동')">🚴 운동</button>
+    <div id="result"></div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
